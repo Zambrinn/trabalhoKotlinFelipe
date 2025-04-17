@@ -1,4 +1,4 @@
-package com.example.apdosuhgadsiopughadpiuaghsdpihyu.dao
+package com.example.ProjetoFelipeKotlin.dao
 
 import androidx.room.Dao
 import androidx.room.Delete
@@ -6,7 +6,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.entities.Task
+import com.example.ProjetoFelipeKotlin.entities.Task
 
 @Dao
 interface DaoTask {

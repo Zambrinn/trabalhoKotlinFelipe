@@ -1,13 +1,13 @@
-package com.example.apdosuhgadsiopughadpiuaghsdpihyu;
+package com.example.ProjetoFelipeKotlin;
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.room.Room
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.dao.DataBase
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.databinding.ActivityAddBinding
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.entities.Task
+import com.example.ProjetoFelipeKotlin.dao.DataBase
+import com.example.ProjetoFelipeKotlin.databinding.ActivityAddBinding
+import com.example.ProjetoFelipeKotlin.entities.Task
 import kotlinx.coroutines.launch
 
 class AddActivity : AppCompatActivity() {
@@ -23,7 +23,7 @@ class AddActivity : AppCompatActivity() {
 
         binding.saveButton.setOnClickListener { // Esse botão  vai pegar os dados inseridos e criar uma nova tarefa
             val title = binding.editTitle.text.toString().trim()
-            val description = binding.editTitle.text.toString().trim()
+            val description = binding.editDescription.text.toString().trim()
 
 
             if (title.isNotBlank() && description.isNotBlank()) { // Se os campos não estiverem vazios, a tarefa é criada e salva

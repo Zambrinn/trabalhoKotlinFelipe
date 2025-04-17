@@ -1,4 +1,4 @@
-package com.example.apdosuhgadsiopughadpiuaghsdpihyu
+package com.example.ProjetoFelipeKotlin
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,9 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.dao.DataBase
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.databinding.ActivityMainBinding
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.entities.Task
+import com.example.ProjetoFelipeKotlin.dao.DataBase
+import com.example.ProjetoFelipeKotlin.databinding.ActivityMainBinding
+import com.example.ProjetoFelipeKotlin.entities.Task
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() { // Optei usar o Empty Activity e não o JetPack Compose

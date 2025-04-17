@@ -1,13 +1,13 @@
-package com.example.apdosuhgadsiopughadpiuaghsdpihyu
+package com.example.ProjetoFelipeKotlin
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.room.Room
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.dao.DataBase
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.databinding.ActivityEditBinding
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.entities.Task
+import com.example.ProjetoFelipeKotlin.dao.DataBase
+import com.example.ProjetoFelipeKotlin.databinding.ActivityEditBinding
+import com.example.ProjetoFelipeKotlin.entities.Task
 import kotlinx.coroutines.launch
 
 class EditActivity : AppCompatActivity() {

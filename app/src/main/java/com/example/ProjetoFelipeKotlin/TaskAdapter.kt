@@ -1,10 +1,10 @@
-package com.example.apdosuhgadsiopughadpiuaghsdpihyu
+package com.example.ProjetoFelipeKotlin
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.databinding.ItemTaskBinding
-import com.example.apdosuhgadsiopughadpiuaghsdpihyu.entities.Task
+import com.example.ProjetoFelipeKotlin.databinding.ItemTaskBinding
+import com.example.ProjetoFelipeKotlin.entities.Task
 
 class TaskAdapter (
     private var tasks: List<Task>, // Lista de tarefas criada
